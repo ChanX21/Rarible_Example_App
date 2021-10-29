@@ -1,29 +1,28 @@
 {
-  "name": "protocol-example",
+  "name": "rarible-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ethereumjs/common": "2.4.0",
-    "@ethereumjs/tx": "3.3.0",
+    "@ethereumjs/common": "^2.4.0",
     "@rarible/action": "0.2.5",
     "@rarible/protocol-api-client": "0.1.4",
-    "@rarible/protocol-ethereum-sdk": "0.1.4",
+    "@rarible/protocol-ethereum-sdk": "0.6.1",
     "@rarible/types": "0.1.2",
+    "@rarible/web3-ethereum": "0.6.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "ethereumjs-util": "7.1.0",
+    "axios": "^0.21.1",
+    "eth-rpc-errors": "^4.0.3",
+    "eth-sig-util": "3.0.1",
+    "ethereumjs-util": "^7.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "tslib": "2.3.1",
     "web-vitals": "^1.0.1",
     "web3": "1.2.11",
     "web3-eth-contract": "1.2.11",
-    "web3-utils": "1.2.11",
-    "axios": "^0.21.1",
-    "eth-rpc-errors": "^4.0.3",
-    "eth-sig-util": "3.0.1"
+    "web3-utils": "1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -52,5 +51,4 @@
   "devDependencies": {
     "@rarible/protocol-ethereum-sdk": "0.1.4"
   }
-  
 }
